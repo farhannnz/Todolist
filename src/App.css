@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+}
+main {
+}
+h1{
+  background-color: black;
+  color: white;
+  text-align:center;
+}
+form{
+  margin:10%;
+}
+form input{
+  border:2px solid grey;
+  border-radius: 2px;
+  padding:10px;
+  margin: 10px;
+}
+
+form button{
+  padding:10px;
+  border:2px solid grey;
+  background-color: black;
+  color:white;
+}
+.container {
+  padding:20px;
+  background-color: grey;
+}
+
+.tasks{
+  display:flex;
+  justify-content:space-between;
+  margin: 5px;
+}
+.delete{
+  padding:3x;
+  border: 2px solid #ff4545;
+  background-color: #ff4545;
+  border-radius: 5px;
+}
